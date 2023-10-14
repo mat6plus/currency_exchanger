@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONT AWESOME CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <!-- Further Code Here -->
+    <div class="wrap">
+        <h1>Multi Currency Converter</h1>
+        <h3>This a simple Multi Currency Converter which enable you to get the most accurate exchange rate acrosss currency pair. Please note that this results are powered by Top Notch financial API to give you the most upto date value.</h3>
+        </br>
+    </div>
+    
+    <div class="wrapper">
+        <h2>Currency Converter</h2>
+        <form id="currency-form">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                        <select> <!-- Options tag are inserted from JavaScript --> </select>
+                    </div>
+                </div>
+                <div class="icon"><i class="fas fa-sync-alt"></i></div>
+                
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://flagcdn.com/48x36/in.png" alt="flag">
+                        <select> <!-- Options tag are inserted from JavaScript --> </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">Getting exchange rate...</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+
+    <div class="wrapper">
+        <h2>Crypto Converter</h2>
+        <form id="crypto-form">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="1">
+            </div>
+            <div class="drop-list">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-box">
+                        <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+                        <select> <!-- Options tag are inserted from JavaScript --> </select>
+                    </div>
+                </div>
+                <div class="icon_2"><i class="fas fa-sync-alt"></i></div>                
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <img src="https://flagcdn.com/48x36/ng.png" alt="flag">
+                        <select> <!-- Options tag are inserted from JavaScript --> </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">Getting exchange rate...</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
